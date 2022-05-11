@@ -1,10 +1,4 @@
-Root{
-  --cor0:;
-  --cor1:;
-  --cor2:;
-  --cor3:;
 
-}
 
 *{
     margin: 0px;
@@ -19,36 +13,37 @@ h1#title{
 }
 header{
     text-align: center;
-    background-image: linear-gradient(to bottom, #6930c3, #5e60ce );
+    background-image: linear-gradient(to bottom, #203de0, #1a1db6 );
     height: 5em;
     padding-top: 2em;
 }
 
 main{
-    margin-top: 4em;
-    background-color: #DCCCFF;
+    margin-top: 1em;
     padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     padding-left: 1em;
     border-radius: 5px;
     margin-left: 0.5em;
     margin-right: 0.5em;
+    padding-right: 0.5em;
+    margin-bottom: 0px;
 }
 .subtitle{
     text-align: center;
+    font-size: 2em;
 }
 
 nav{
    text-align: center;
    padding-left: 2em;
-   background-color: rgb(89, 18, 155);
+   background-color: rgb(19, 44, 185);
    padding-bottom: 0.5em;
    padding-top: 0.5em;
    color: #F6F2FF;
    margin-top: 0.3em;
-   margin-left: 0.5em;
-   margin-right: 0.5em;
-   border-radius: 6px;
+  
+  
 
 }
 
@@ -58,13 +53,14 @@ nav{
     padding-right: 2em;
     text-decoration: none;
     font-family: sans-serif;
+    
 }
 
 .nave:hover{
-    background-color: #ccb6fc;
+    background-color: #0ab0f1;
     border-radius: 2px;
     transition-duration: 0.1s;
-    color: darkmagenta;
+    color: rgb(25, 0, 139);
     
 }
 
@@ -79,6 +75,55 @@ footer{
 }
 
 p{
-    text-indent: 0.5em;
     font-size: 1em;
 }
+
+.quadrado{
+    margin-top: 3em;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #9576da;
+}
+
+div#testewall{
+    background-image: url(Imagens/wallpaper002.jpg);
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    margin-right: 0em;
+    height: 300px;
+    color: #F6F2FF;
+    text-align: center;
+    padding-top: 2em;
+    font-size: medium;
+    background-repeat: no-repeat;
+}
+
+div#bananas{
+    background-image: url(Imagens/wallpaper004.jpg);
+    height: 300px;
+    margin-top: 1em;
+    text-align: center;
+    padding-top: 4em;
+
+}
+
+img{
+    padding-top: 2em;
+    padding-left: 1em;
+   
+}
+
+aside{
+    padding-left: 1em;
+}
+
+section{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    text-align: center;
+}
+
